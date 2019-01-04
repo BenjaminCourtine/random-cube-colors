@@ -19,7 +19,6 @@ export default class HomeContainer extends React.Component {
           color += letters[Math.floor(Math.random() * 16)];
         }
         this.setState({color})
-        console.log(this.state.color)
     }
 
     render() {
